@@ -1,26 +1,20 @@
 # Site Settings
-name: Jekflix
-title: Jekflix | A blog theme for Jekyll
-description: Jekflix is a template for Jekyll inspired by Netflix and made by Thiago Rossener.
+name: 0xDiablos
+title: 0xDiablos | always here to hack
+description: We love CyberSec filed So we will post write ups with love.
 tags:
   - blog
   - template
   - jekyll
   - theme
   - netlify
-email: youremail@xyz.com
-disqus_username: disqus_username
 show_hero: true
 
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: github_username
-facebook_username: facebook_username
-twitter_username: twitter_username
-instagram_username: instagram_username
-linkedin_username: linkedin_username
-medium_username: medium_username
+github_username: 0xdiablos
+facebook_username: 0xdiablos
 
 
 # Theme Settings
