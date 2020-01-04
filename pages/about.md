@@ -10,9 +10,8 @@ menu: true
 
 # About
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+0xDiablos is an Egyptian security Capture The Flag team. It was created in November 2019 and currently has 6 active members. We frequently participate in both online and offline security Capture The Flag competitions, publish write-ups on CTF tasks and we hope to change this career from the thinking side .  
+
+# How to join us
+
+If you wanna join 0xDiablos Team just send us your rank in the previous CTF you joined and you can contact us in our e-mail `0xdiablos01@gmail.com`
