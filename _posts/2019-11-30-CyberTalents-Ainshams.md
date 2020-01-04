@@ -2,7 +2,7 @@
 date: 2019-11-30 23:48:05
 layout: post
 title: CyberTalents - Ainshams University CTF2019
-subtitle: Ainshams University Writeup
+subtitle: Created by: Mrx-Exploit
 description: >-
   It was very easy Web Challenge.
 image: >-
