@@ -3,7 +3,7 @@ layout: author
 photo: /assets/img/uploads/X-Billy.jpg
 name: Abdullah hassan
 display_name: Abdullah hassan
-position: Information Security engineer at ISEC
+position: Cybersecurity engineer at ISEC
 bio: Aka X-Billy
 github_username: X-Billy
 facebook_username: xB1lly
