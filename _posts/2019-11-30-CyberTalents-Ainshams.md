@@ -31,7 +31,7 @@ So let's see the the source code
 
 Yes i found brainFuck encryption  
 
-![image](/images/WebCTF/ainshams/1.png)
+![image](/assets/img/WebCTF/ainshams/1.png)
 
 So let's decode it [dcode.fr](https://www.dcode.fr/brainfuck-language)  
 
@@ -43,7 +43,7 @@ There are `getuserinfo.php` and it's takes POST data `PHPSESSID= ???`
 
 So let's see what's inside it  
 
-![image](/images/WebCTF/ainshams/2.png)  
+![image](/assets/img/WebCTF/ainshams/2.png)  
 
 Ahaa it's API Hmmm  
 
@@ -85,13 +85,13 @@ I think i need to get the username and put it in Cookie too in UserInfo
 
 So let's try to send the session in the API and let's see what will happen  
 
-![image](/images/WebCTF/ainshams/3.png)
+![image](/assets/img/WebCTF/ainshams/3.png)
 
 Awsome i got the username it's so easy  
 
 let's put it in the Cookie  
 
-![image](/images/WebCTF/ainshams/4.png)
+![image](/assets/img/WebCTF/ainshams/4.png)
 
 Woow it's so easy we got the flag
 ```
@@ -168,3 +168,4 @@ drwxr-xr-x 8 root root 4096 Nov 30 10:56 .git
 -rw-r--r-- 1 root root 2531 Nov 30 10:56 index.html
 root@kali:~/Desktop/cyber/git/18.197.166.159/Broken-doors# cd .git
 root@kali
+```
