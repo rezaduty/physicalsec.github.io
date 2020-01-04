@@ -1,6 +1,6 @@
 ---
 layout: author
-photo: /assets/img/uploads/profile.png
+photo: /assets/img/uploads/Yuns.png
 name: Salah Saleh
 display_name: Salah Saleh
 position: Cybersecurity engineer 
