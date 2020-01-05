@@ -8,7 +8,7 @@ description: >-
 tags: 
  - picoCTF 
  - pwn 
- -source_code_review 
+ - source_code_review 
 image: >-
  /assets/img/binary-exploitation/limitless/banner.png
 optimized_image: >-
