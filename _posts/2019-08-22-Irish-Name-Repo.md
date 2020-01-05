@@ -13,7 +13,7 @@ tags:
  - picoCTF 
  - websec 
  - sqli 
- category: blog
+category: blog
 author: Abdullah Hassan
 paginate: true
 ---
