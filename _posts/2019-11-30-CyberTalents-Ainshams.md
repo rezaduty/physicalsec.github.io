@@ -4,7 +4,7 @@ layout: post
 title: CyberTalents - Ainshams University CTF2019
 subtitle: "Created by: Mrx-Exploit"
 description: >-
-  It was very easy Web Challenge.
+  Created by: Mrx-Exploit
 image: >-
   /assets/img/WebCTF/ainshams/banner.jpg
 optimized_image: >-
