@@ -10,7 +10,7 @@ image: >-
 optimized_image: >- 
   /assets/img/WebCTF/Irish-Name-Repo/banner.png
 category: blog
-tags: 
+tags:
  - picoCTF 
  - websec 
  - sqli 
