@@ -9,11 +9,11 @@ image: >-
   /assets/img/WebCTF/Irish-Name-Repo/banner.png
 optimized_image: >- 
   /assets/img/WebCTF/Irish-Name-Repo/banner.png
+category: blog
 tags: 
  - picoCTF 
  - websec 
  - sqli 
-category: blog
 author: Abdullah Hassan
 paginate: true
 ---
