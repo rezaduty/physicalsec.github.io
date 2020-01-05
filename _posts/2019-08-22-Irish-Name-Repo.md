@@ -3,13 +3,16 @@ date: 2019-8-22 23:48:05
 layout: post
 title:  "Irish-Name-Repo 1*3 - PicoCTF 2019"
 subtitle: "Created by: X-Billy"
-description: >- Created by: X-Billy
-image: >- /assets/img/WebCTF/Irish-Name-Repo/banner.png
-optimized_image: >- /assets/img/WebCTF/Irish-Name-Repo/banner.png
+description: >- 
+  Created by: X-Billy
+image: >- 
+  /assets/img/WebCTF/Irish-Name-Repo/banner.png
+optimized_image: >- 
+  /assets/img/WebCTF/Irish-Name-Repo/banner.png
 tags: 
- -picoCTF 
- -websec 
- -sqli 
+ - picoCTF 
+ - websec 
+ - sqli 
 ---
 
 # Irish-Name-Repo 1
@@ -70,5 +73,3 @@ then let encode our payload from admin'or'1'='1 to nqzva'be'1'='1
 
 flag is `picoCTF{3v3n_m0r3_SQL_ef7eac2f}`
 Its work now but it's looks easy again :D
-
----
