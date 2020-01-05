@@ -13,6 +13,9 @@ tags:
  - picoCTF 
  - websec 
  - sqli 
+ category: blog
+author: Abdullah Hassan
+paginate: true
 ---
 
 # Irish-Name-Repo 1
