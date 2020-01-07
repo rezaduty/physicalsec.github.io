@@ -14,4 +14,4 @@ menu: true
 
 # How to join us
 
-If you wanna join 0xDiablos Team just send us your rank in the previous CTF you joined and you can contact us in our e-mail `0xdiablos01@gmail.com`
+If you wanna join 0xDiablos Team just send us your rank in the previous CTF you joined and you can contact us in our e-mail `0xdiablos@gmail.com`
