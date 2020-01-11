@@ -66,7 +66,7 @@ I got only `22 and 80` So lets see the web interface
 But before we go there is a lot of info in `robots.txt` like `/autocomplete/users /search /api /admin /profile /dashboard /projects/new /groups/new /groups/*/edit /users /help`  
 A lot of subs we can visit it so lets see what's inside /help maybe we can get something useful  
 Oh there is `HTML` file called `bookmarks.html` So lets see what's inside  
-![image](assets/img/hackthebox/bitlab/help.png)
+![image](/assets/img/hackthebox/bitlab/help.png)
 
 Hmmm All return to the main website but `GitLab` have javascript so wired
 
@@ -148,7 +148,7 @@ RemoteConnection.exe                                     100%   14KB   6.0KB/s  
 ```
 And lets use IDA pro for this mission  
 After using IDA pro I got something so wired  
-![image](assets/img/hackthebox/bitlab/putty.png)
+![image](/assets/img/hackthebox/bitlab/putty.png)
 It's calling putty.exe WHY !!?   
 I think it's will ssh as root on the box !!?   
 Let's try to get run it with breakpoint in `jnz       short  loc_401662`  
