@@ -24,7 +24,7 @@ paginate: true
 
 # Summary
 
-It was easy box worth 20 points   
+It was Medium box worth 30 points   
 IP : `10.10.10.114`  
 Easy user we got it after low enumeration we got it from web interface GitLab running on it and root part was so funny with reverse engineering
 
