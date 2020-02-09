@@ -179,7 +179,8 @@ let's compile it first
 
 then deploy it from provied given address and choose enviroment to injected web3 so let metamask to connected to remix.
 
-![image](/assets/img/hackthebox/bitlab/deployed2.PNG)
+![image](/assets/img/hackthebox/bitlab/depolyed2.PNG)
+
 
 now we can execute smart contract functions and get our results. but first of all we need to indentfy the correct guessing number before feeding it to guess function.
 
