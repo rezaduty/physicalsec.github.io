@@ -6,9 +6,9 @@ subtitle: "Created by: 0xFlash"
 description: >-
   Created by: 0xFlash
 image: >-
-  /assets/img/hackthebox/bitlab/blockchain.png
+  /assets/img/hackthebox/bitlab/Blockchain1.jpg
 optimized_image: >-
-  /assets/img/hackthebox/bitlab/blockchain.png
+  /assets/img/hackthebox/bitlab/Blockchain1.jpg
 category: blog
 tags:
   - SecurityBlockchain
@@ -210,7 +210,7 @@ now the script is telling us after brute-forcing that the correct number is `170
 
 so now we know what is the correct number to pass to guess function all we have to do now is to execute it with 1 ether 
 
-```solidity
+```javascript
 
     function guess(uint8 n) public payable {
         require(msg.value == 1 ether);
