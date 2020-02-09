@@ -321,6 +321,12 @@ if you more interested in mapping type you can refer to to this website `https:/
 The keyword `public` automatically creates a getter function for the variable.
 
 
+Next we find a pretty special function. The contract's constructor.
+
+In the Ethereum and Solidity world, a contract's constructor is called when the contract is deployed to the network. That means that the constructor is called just once. In Donate's case, by checking at its constructor function, it can be seen that an initial contribution of 1000 ETH from the owner is stored in the contributions mapping when the contract is deployed. 
+The keyword `msg.sender` references the caller of the function.
+
+
 ```javascript  
 constructor() public {
     owner = msg.sender;
@@ -329,13 +335,7 @@ constructor() public {
 }```
 
 
-Next we find a pretty special function. The contract's constructor.
-
-In the Ethereum and Solidity world, a contract's constructor is called when the contract is deployed to the network. That means that the constructor is called just once. In Donate's case, by checking at its constructor function, it can be seen that an initial contribution of 1000 ETH from the owner is stored in the contributions mapping when the contract is deployed. 
-The keyword `msg.sender` references the caller of the function.
-
-
-``` javascript
+```javascript
   modifier onlyOwner {
         require(
             msg.sender == owner,
