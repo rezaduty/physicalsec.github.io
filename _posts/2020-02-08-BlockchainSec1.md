@@ -6,9 +6,9 @@ subtitle: "Created by: 0xFlash"
 description: >-
   Created by: 0xFlash
 image: >-
-  /assets/img/hackthebox/bitlab/Blockchain1.jpg
+  /assets/img/hackthebox/bitlab/blockchain.PNG
 optimized_image: >-
-  /assets/img/hackthebox/bitlab/Blockchain1.jpg
+  /assets/img/hackthebox/bitlab/blockchain.PNG
 category: blog
 tags:
   - SecurityBlockchain
