@@ -6,9 +6,9 @@ subtitle: "Created by: 0xFlash"
 description: >-
   Created by: 0xFlash
 image: >-
-  /assets/img/hackthebox/bitlab/blockchain.png
+  /assets/img/hackthebox/bitlab/Blockchain1.jpg
 optimized_image: >-
-  /assets/img/hackthebox/bitlab/blockchain1.png
+  /assets/img/hackthebox/bitlab/Blockchain1.jpg
 category: blog
 tags:
   - SecurityBlockchain
@@ -36,7 +36,7 @@ This time I’ve only stored the hash of the number. Good luck reversing a crypt
 
 ![image](/assets/img/hackthebox/bitlab/challangePic.PNG)
 
-```solidity
+```javascript
 
 pragma solidity ^0.4.21;
 
@@ -64,14 +64,14 @@ contract GuessTheSecretNumberChallenge {
 
 the contract rewards 2 ether who can guess the correct number which can be passed to guess function. lets analyze contract code line by line
 
-```solidity
+```javascript
 pramga solidity ^0.4.21;
 ```
 The pragma keyword is used to enable certain compiler features or checks for smart contract.
 
 A source file with the line above does not compile with a compiler earlier than version 0.4.21.
 
-```solidity
+```javascript
 contract GuessTheSecretNumberChallenge {
     bytes32 answerHash = 0xdb81b4d58595fbbbb592d3661a34cdca14d7ab379441400cbfa1b78bc447c365;
 
@@ -93,7 +93,7 @@ payable keyword allows function to receive ether when it called as state.
 
 isComplete function is only check the current contract balance if is drained to zero or not.
 
-```solidity
+```javascript
 
     function guess(uint8 n) public payable {
         require(msg.value == 1 ether);
@@ -246,7 +246,7 @@ Smart contracts are dynamic, complex, and incredibly powerful. While their poten
 
 
 
-```solidity
+```javascript
 pragma solidity >=0.4.17 <0.7.0;
 
 
@@ -321,7 +321,7 @@ if you more interested in mapping type you can refer to to this website `https:/
 The keyword `public` automatically creates a getter function for the variable.
 
 
-```solidity  
+```javascript  
 constructor() public {
     owner = msg.sender;
     // initial contribution from owner
@@ -335,7 +335,7 @@ In the Ethereum and Solidity world, a contract's constructor is called when the 
 The keyword `msg.sender` references the caller of the function.
 
 
-``` solidity
+``` javascript
   modifier onlyOwner {
         require(
             msg.sender == owner,
@@ -351,7 +351,7 @@ you can assume them that are middelware functions use them to run under specific
 
 here is this modifier is only check who is calling the function  whether he is has owner privilege or not once the condition is met the user premitted to execute the function which use this modifire otherwise it will revet the whole transaction.
 
-```solidity
+```javascript
   function contribute() public payable {
     require(msg.value < 0.001 ether);
     contributions[msg.sender] += msg.value;
@@ -366,7 +366,7 @@ here is contribute function it payable function This keyword is used in all of t
 
 once checking get passed it look up for user who want to contribute within `contribution mapping` and update his balance with a amount he contributed. then it check between how much contribution between the caller function and owner of contract if the caller have much contribution he will be ownership the contract fair enough :D.
 
-```solidity
+```javascript
   function getContribution() public view returns (uint) {
     return contributions[msg.sender];
   }
@@ -375,7 +375,7 @@ once checking get passed it look up for user who want to contribute within `cont
 function getContribution is only get your current contributions in contract.
 
 
-```solidity
+```javascript
   function withdraw() public onlyOwner {
     owner.transfer(address(this).balance);
   }
@@ -386,7 +386,7 @@ subscribe to netflix , buy all books you need , learning new things and built yo
 
 
 
-```solidity
+```javascript
   function() payable external {
     require(msg.value > 0 && contributions[msg.sender] > 0);
     owner = msg.sender;
@@ -630,7 +630,7 @@ module.exports = execute
 now we are successfully contribute to the smart contract and now we are no longer our contribution is less than 0
 so we have the condition we need to run fallback successfully and be owner of the contract lets do that.
 
-```solidity
+```javascript
 
   function() payable external {
     require(msg.value > 0 && contributions[msg.sender] > 0);
