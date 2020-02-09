@@ -757,32 +757,3 @@ Hope this basic introduction good for  who want to get dirty hand in that field.
 Stay tuned for upcomming posts..
 
 # Feedback Really Appreciate
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
