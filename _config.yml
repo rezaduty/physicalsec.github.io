@@ -1,20 +1,19 @@
 # Site Settings
-name: 0xDiablos
-title: 0xDiablos | always here to hack
-description: We love CyberSec filed So we will post write ups with love.
+name: امنیت فیزیکی
+title: امنیت فیزیکی
+description: کتابچه نکات امنیت فیزیکی
 tags:
-  - blog
-  - template
-  - jekyll
-  - theme
-  - netlify
+  - physical
+  - security
+  - امنیت
+  - فیزیکی
 show_hero: true
 
 
 # Social Media Settings
 # Remove the item if you don't need it
-github_username: 0xdiablos
-facebook_username: 0xDiablosTeam
+github_username: physicalsec
+facebook_username: 
 
 
 # Theme Settings
