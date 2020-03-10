@@ -16,27 +16,48 @@ layout: main
 
 <main class="home {% if site.show_hero and paginator == nil or paginator.page == 1 %}no-padding{% endif %}" role="main">
     {% if site.show_hero and paginator == nil or paginator.page == 1 %}
-        <!-- Hero -->
-        {% assign featured = posts.first %}
-        <section class="hero" style="background-image: url({{ featured.image }})">
-            <div class="pixels"></div>
-            <div class="gradient"></div>
-            <div class="content">
-                <time datetime="{{ featured.date | date_to_xmlschema }}" class="date">{{ featured.date | date: "%m.%d.%Y" }}</time>
-                <h1 class="title">{{ featured.title }}</h1>
-                <p class="description">{{ featured.subtitle }}</p>
-                <div class="buttons">
-                    <a href="{{ featured.url }}" role="button" class="button">
-                        <img src="/assets/img/icons/read.svg">
-                        <span>Read Now</span>
-                    </a>
+    <!-- Hero -->
+
+    {% assign sortedcategories = site.categories | sort %}
+{% for category in sortedcategories %}
+{% assign categ = category[0] | split: " " %}
+{% for cat in categ %}
+   {% if cat == "start" %}
+        
+            {% assign pages_list = category[1] %}
+            {% for featured in pages_list %}
+            
+            <section class="hero" style="background-image: url({{ featured.image }})">
+                <div class="pixels"></div>
+                <div class="gradient"></div>
+                <div class="content">
+                    <h1 class="title">{{ featured.title }}</h1>
+                    <p class="description">{{ featured.subtitle }}</p>
+                    <div class="buttons">
+                        <a href="{{ featured.url }}" role="button" class="button">
+                            <img src="/assets/img/icons/read.svg">
+                            <span>شروع</span>
+                        </a>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+
+
+            {% endfor %}
+            {% assign pages_list = nil %}
+        </ul>
     {% endif %}
+{% endfor %}
+{% endfor %}
+
+
+
+    
+{% endif %}
     <!-- Posts -->
     <section id="grid" class="row flex-grid">
-        {% for post in posts offset: offset %}
+        {% for post in posts %}
+        {% if post.category != "start" %}
             <article class="box-item">
                 <span class="category">
                     <a href="{{ site.baseurl }}/category/{{ post.category }}">
@@ -66,9 +87,6 @@ layout: main
                         </a>
                     </div>
                     <div class="box-info">
-                        <time datetime="{{ post.date | date_to_xmlschema }}" class="date">
-                            {% include date.html date=post.date %}
-                        </time>
                         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
                             <h2 class="post-title">
                                 {{ post.title }}
@@ -87,6 +105,7 @@ layout: main
                     </div>
                 </div>
             </article>
+        {% endif %}
         {% endfor %}
     </section>
     <!-- Pagination -->

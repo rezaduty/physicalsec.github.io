@@ -1,6 +1,6 @@
 <ul>
   <li>
-    <a href="{{ site.url }}{{site.baseurl}}/">Home</a>
+    <a href="{{ site.url }}{{site.baseurl}}/">صفحه اصلی</a>
   </li>
   {% for page in site.pages %}
     {% if page.menu %}
@@ -11,10 +11,10 @@
   {% endfor %}
   {% if site.email %}
     <li>
-      <a href="{{ site.url }}{{site.baseurl}}/contact/">Contact</a>
+      <a href="{{ site.url }}{{site.baseurl}}/contact/">دیسکورد</a>
     </li>
   {% endif %}
   <li>
-    <a class="feed" href="{{ site.url }}{{site.baseurl}}/tags" title="Atom/RSS feed">Tags</a>
+    <a class="feed" href="{{ site.url }}{{site.baseurl}}/tags" title="Atom/RSS feed">برچسب ها</a>
   </li>
 </ul>
